@@ -1,0 +1,141 @@
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+#googlepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 25px;
+
+  }
+
+#SearchBox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    height: 43px;
+    border-color: lightgrey;
+    outline: none;
+        
+  }
+
+#SearchBox[type=text]:focus {
+    border: 1px solid #ccc; 
+    box-shadow: 0px 0px 6px 0.1px #C7C7C7;
+  }
+
+  #SearchBox[type=text]:hover {
+    border: 1px solid #ccc; 
+    box-shadow: 0px 0px 6px 0.1px #C7C7C7;
+  }
+
+#SearchBox[type=text] {
+    background-color: white;
+    background-image: url('magsearch.png');
+    background-position: 10px 13px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-size: 18px;
+  }
+
+#MainButtons {
+  text-align: center;
+}
+  #GoogleSearch {
+    margin: 0 auto;
+    display: block;
+    margin-right: 8px;  
+    margin-top: 10px;
+  }
+
+  #FeelingLucky, #GoogleSearch {
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    background-color: #ededed;
+    height: 36px;
+    width: 130px;
+  }
+
+#TopLinks {
+      margin-top: 15px;
+      margin-left: 15px;
+      word-spacing: 15px;
+  }
+
+#TopLinks a {
+      color: darkslategray;
+      text-decoration: none;
+      font-family: arial,sans-serif;
+      font-size: 12.5px;
+      font-weight: 500;
+  }
+
+#TopLinks a:hover {
+     text-decoration: underline;
+ }
+
+#SignInButton {
+    word-spacing: 1px;
+ }
+
+#LeftTopLinks {
+     display: inline;
+ }
+
+#RightTopLinks {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+
+#BottomLinks {
+  padding-top: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 3px;
+  word-spacing: 20px;
+  position: absolute;
+  width: 99%;
+  bottom: 0;
+  background-color: rgb(235, 235, 235);
+  background-size: cover;
+  height: 22px;
+  
+}
+
+#BottomLinks a {
+  color: darkslategray;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+#BottomLinks a:hover {
+ text-decoration: underline;
+}
+
+#SearchWorks {
+  word-spacing: 1px;
+}
+
+#LeftBottomLinks {
+ display: inline;
+}
+
+#RightBottomLinks {
+display: inline;
+float: right;
+}
